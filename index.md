@@ -22,7 +22,6 @@ The current typical text-to-speech (TTS) techniques fail to perform well on diff
         <td ><center>
 		
 		<p>&nbsp;</p>
-		<p>&nbsp;</p>
 		
 		<img src="assets/image/fig2.jpg"/>
 		
