@@ -17,7 +17,7 @@ The current typical text-to-speech (TTS) techniques fail to perform well on diff
 <table>
     <tr>
         <td ><center><img src="assets/image/fig1.jpg" width="42%"/>(A) DMN </center></td>
-        <td ><center><img src="assets/image/fig2.jpg" width="58%"/ > <br/>
+        <td ><center><img src="assets/image/fig2.jpg" width="58%"/> <br/>
 		
 		
 		(B) FDMN </center></td>
