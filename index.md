@@ -1,18 +1,18 @@
 <p align="justify">
-In this post, we show the demo of the Digestive Metabolic Network for TTS
+In this post, we show the demo of the functional Digestive Metabolic Network for TTS
 </p>
 
 ### Overview
 <p align="justify">
-The current typical text-to-speech (TTS) technology can hardly differentiate the timbre information of each speaker from the multi-speaker speech dataset. If the target speaker just takes a small proportion of the data set compared with other speakers, other speakers will have a severe influence on the timbre and pitch of the generated voice. Inspired by the digestive process and metabolic activity of animals, we propose a general bionic architecture, functional Digestive Metabolic Network (DMN), which could exploit the traditional TTS model. The DMN consists of the digestive network containing pre-net and decomposition-net, and metabolic network including self-interest classifier and label classifier. It can ignore the timbre information of non-target speakers and then absorb the benefit phoneme information to generate the voice sounding like the target speaker. Simultaneously, we introduce the functional digestive enzyme concept to enhance the timbre similarity towards the target speaker. We embed the original Tacotron2 into the DMN framework, where the $x\text{-}vector$ is regarded as the digestive enzyme. Ablation experiment on multi-speaker speech dataset shows that the proposed functional DMN outperforms other models on Mean Opinion Score (MOS) and Voice Similarity Score (VSS), which demonstrates that the bionic framework could separate the timbre information from speech.
+The current typical text-to-speech (TTS) techniques fail to perform well on differentiating each speaker's timbre information from the multi-speaker speech dataset. Specially, when the target speaker takes a small proportion of the dataset compared with other speakers, other speakers will severely influence the timbre and pitch of generated speech. This is a difficult problem in TTS. Inspired by animals' digestive process and metabolic activity after taking intake, we propose firstly a general bionic architecture, functional Digestive Metabolic Network (DMN), which could exploit the traditional TTS model. The DMN consists of a digestive network containing pre-net and decomposition-net, and a metabolic network including self-interest classifier and supervised generator. It can ignore the dregs and then absorb the benefits of intake to generate target compound. Simultaneously, we introduce the functional digestive enzyme concept to enhance the performance. Considering the above problem of TTS, we embed the Tacotron2 into the DMN framework, as well as adding the timbre feature as the digestive enzyme. Ablation experiment on the multi-speaker speech dataset shows that the proposed DMN has improved greatly the performance of Tacotron2 on Mean Opinion Score (MOS) and Voice Similarity Score (VSS).
 </p>
 
-![Model Architecture ](https://raw.githubusercontent.com/AImusic-zhangxulong/FDMN-TTS/master/assets/image/fig1.png)
+![Model Architecture ](assets/image/fig1.jpg)
 <p align="center">Figure.1 The architecture of the general digestive metabolic network.</p>
 
 ### Functional Digestive Metabolic Network
 
-![Spectrograms](https://raw.githubusercontent.com/AImusic-zhangxulong/FDMN-TTS/master/assets/image/fig2.png)
+![Spectrograms](assets/image/fig2.jpg)
 <p align="center">Figure.2 The architecture of the functional digestive metabolic network.</p>
 
 ### Results
