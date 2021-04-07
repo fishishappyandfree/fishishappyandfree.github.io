@@ -20,8 +20,10 @@ The current typical text-to-speech (TTS) techniques fail to perform well on diff
         <td ><center><img src="assets/image/fig2.jpg"/> </center></td>
     </tr>
 	<tr>
-        <td><center> (A) DMN </center></td>
-        <td ><center> (B) FDMN </center> </td>
+		<th> (A) DMN </th>
+		<th> (B) FDMN </th>
+<!--         <td>(A) DMN </center></td>
+        <td >(B) FDMN </center> </td> -->
     </tr>
 
 	
