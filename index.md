@@ -11,23 +11,20 @@ The current typical text-to-speech (TTS) techniques fail to perform well on diff
 <!-- <center class="half">
     <img src="assets/image/fig1.jpg" width="300"/>
     <img src="assets/image/fig2.jpg" width="300"/>
-</center>
+</center>       <p>&nbsp;</p> 
 <p align="center">Figure.1 The architecture of the functional digestive metabolic network,</p> -->
 
 <table>
     <tr>
-        <td ><center><img src="assets/image/fig1.jpg"/>
-		
-		(A) DMN </center></td>
-        <td ><center>
-		
-		<p>&nbsp;</p>
-		
-		<img src="assets/image/fig2.jpg"/>
-		
-	
-		(B) FDMN </center></td>
+        <td ><center><img src="assets/image/fig1.jpg"/> </center></td>
+        <td ><center><img src="assets/image/fig2.jpg"/> </center></td>
     </tr>
+	<tr>
+        <td><center> (A) DMN </center></td>
+        <td ><center> (B) FDMN </center> </td>
+    </tr>
+
+	
 </table>
 <p align="center">Figure.1 (A) The architecture of the functional digestive metabolic network (DMN). (B) The architecture of the functional digestive metabolic network (FDMN).</p>
 
