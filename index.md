@@ -67,10 +67,9 @@ table {
 }
 </style>
 
-# The number of target speaker is 30
 
 <table>
-	<CAPTION>The number of target speaker speech is 30</CAPTION>
+	<CAPTION>Table.1 The number of target speaker speech is 30</CAPTION>
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
