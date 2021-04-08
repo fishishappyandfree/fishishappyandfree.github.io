@@ -73,7 +73,7 @@ table {
 
 
 <table>
-	<CAPTION>Table.1 The comparision between the functional DMN (FDMN) and other models when number of target speaker's speech is 30</CAPTION>
+	<CAPTION>Table.1 The comparision between the functional DMN (FDMN) and other models when the number of target speaker's speech is 30</CAPTION>
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
@@ -146,7 +146,7 @@ table {
 
 
 <table>
-	<CAPTION>Table.2 The comparision between the functional DMN (FDMN) and other models when number of target speaker's speech is 100</CAPTION>
+	<CAPTION>Table.2 The comparision between the functional DMN (FDMN) and other models when the number of target speaker's speech is 100</CAPTION>
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
@@ -218,7 +218,7 @@ table {
 
 
 <table>
-	<CAPTION>Table.3 The comparision between the functional DMN (FDMN) and other models when number of target speaker's speech is 300</CAPTION>
+	<CAPTION>Table.3 The comparision between the functional DMN (FDMN) and other models when the number of target speaker's speech is 300</CAPTION>
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
@@ -291,7 +291,7 @@ table {
 
 
 <table>
-	<CAPTION>Table.4 The comparision between the functional DMN (FDMN) and other models when number of target speaker's speech is 500</CAPTION>
+	<CAPTION>Table.4 The comparision between the functional DMN (FDMN) and other models when the number of target speaker's speech is 500</CAPTION>
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
