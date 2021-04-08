@@ -43,9 +43,13 @@ The current typical text-to-speech (TTS) techniques fail to perform well on diff
 
 ### Experiment
 ## Dataset
-We carry out the experiments on a private commercial datasetcollected in Chinese. The total number of Chinese audio clips and the corre-sponding text transcripts is 33191, with which the total lengthis 30 hours approximately. 
+We carry out the experiments on a private commercial datasetcollected in Chinese. This dataset contains three speakers, speaker1, speaker2, speaker3, of which there are 4019, 20257,
+8915 records, respectively. The total length of the dataset is 30 hours approximately. We randomly split 24000 records of speaker1 and speaker2 for training and 276 records for validation. We randomly select 30, 100, 300, 500 records from speaker3 as training data respectively. Furthermore, the corresponding validation set has 100 records and the corresponding test set has 100 records.
+ 
 
 ## Results
+In order to evaluate the performance of our model, we use the text transcripts in test set as the input of the model, and obtain the synthetic audios, which are rated together with the ground truth audio by speaker3. Here, to describe the superiority of the functional DMN framework, we list the four Tables such as Table1, Table2, Table3 and Table4. Among them, the six texts are in the test set. 
+
 
 <script>
 function pauseOthers(ele) {
@@ -69,7 +73,7 @@ table {
 
 
 <table>
-	<CAPTION>Table.1 The number of target speaker speech is 30</CAPTION>
+	<CAPTION>Table.1 The comparision between the functional DMN (FDMN) and other models when number of target speaker's speech is 30</CAPTION>
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
@@ -140,8 +144,9 @@ table {
 
 <p>&nbsp;</p> 
 
-# The number of target speaker is 100
+
 <table>
+	<CAPTION>Table.2 The comparision between the functional DMN (FDMN) and other models when number of target speaker's speech is 100</CAPTION>
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
@@ -211,8 +216,9 @@ table {
 
 <p>&nbsp;</p> 
 
-# The number of target speaker is 300
+
 <table>
+	<CAPTION>Table.3 The comparision between the functional DMN (FDMN) and other models when number of target speaker's speech is 300</CAPTION>
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
@@ -283,8 +289,9 @@ table {
 
 <p>&nbsp;</p> 
 
-# The number of target speaker is 500
+
 <table>
+	<CAPTION>Table.4 The comparision between the functional DMN (FDMN) and other models when number of target speaker's speech is 500</CAPTION>
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
