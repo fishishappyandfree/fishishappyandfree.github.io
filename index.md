@@ -2,12 +2,12 @@
 In this post, we show the demo of the functional Digestive Metabolic Network for TTS
 </p>
 
-### Overview
+## Overview
 <p align="justify">
 The current typical text-to-speech (TTS) techniques fail to perform well on differentiating each speaker's timbre information from the multi-speaker speech dataset. Specially, when the target speaker takes a small proportion of the dataset compared with other speakers, other speakers will severely influence the timbre and pitch of generated speech. This is a difficult problem in TTS. Inspired by animals' digestive process and metabolic activity after taking intake, we propose firstly a general bionic architecture, functional Digestive Metabolic Network (DMN), which could exploit the traditional TTS model. The DMN consists of a digestive network containing pre-net and decomposition-net, and a metabolic network including self-interest classifier and supervised generator. It can ignore the dregs and then absorb the benefits of intake to generate target compound. Simultaneously, we introduce the functional digestive enzyme concept to enhance the performance. Considering the above problem of TTS, we embed the Tacotron2 into the DMN framework, as well as adding the timbre feature as the digestive enzyme. Ablation experiment on the multi-speaker speech dataset shows that the proposed DMN has improved greatly the performance of Tacotron2 on Mean Opinion Score (MOS) and Voice Similarity Score (VSS).
 </p>
 
-### Model Architecture
+## Model Architecture
 <!-- <center class="half">
     <img src="assets/image/fig1.jpg" width="300"/>
     <img src="assets/image/fig2.jpg" width="300"/>
@@ -41,13 +41,13 @@ The current typical text-to-speech (TTS) techniques fail to perform well on diff
 ![Spectrograms](assets/image/fig2.jpg)
 <p align="center">Figure.2 The architecture of the functional digestive metabolic network.</p> -->
 
-### Experiment
-## Dataset
+## Experiment
+### Dataset
 We carry out the experiments on a private commercial datasetcollected in Chinese. This dataset contains three speakers, speaker1, speaker2, speaker3, of which there are 4019, 20257,
 8915 records, respectively. The total length of the dataset is 30 hours approximately. We randomly split 24000 records of speaker1 and speaker2 for training and 276 records for validation. We randomly select 30, 100, 300, 500 records from speaker3 as training data respectively. Furthermore, the corresponding validation set has 100 records and the corresponding test set has 100 records.
  
 
-## Results
+### Results
 In order to evaluate the performance of our model, we use the text transcripts in test set as the input of the model, and obtain the synthetic audios, which are rated together with the ground truth audio by speaker3. Here, to describe the superiority of the functional DMN framework, we list the four Tables such as Table1, Table2, Table3 and Table4. Among them, the six texts are in the test set. 
 
 
