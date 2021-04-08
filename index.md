@@ -73,10 +73,10 @@ table {
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
-        <th> DMN</th>
-        <th> FDMN </th>
         <th> Tacotron2 </th>
         <th> Tacotron2+x-vector </th>
+		<th> DMN</th>
+        <th> FDMN </th>
     </tr>
     <tr>
         <th> text1 </th>
@@ -145,10 +145,10 @@ table {
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
-        <th> DMN</th>
-        <th> FDMN </th>
         <th> Tacotron2 </th>
         <th> Tacotron2+x-vector </th>
+		<th> DMN</th>
+        <th> FDMN </th>
     </tr>
     <tr>
         <th> text1 </th>
@@ -216,10 +216,10 @@ table {
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
-        <th> DMN</th>
-        <th> FDMN </th>
         <th> Tacotron2 </th>
         <th> Tacotron2+x-vector </th>
+		<th> DMN</th>
+        <th> FDMN </th>
     </tr>
     <tr>
         <th> text1 </th>
@@ -288,10 +288,10 @@ table {
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
-        <th> DMN</th>
-        <th> FDMN </th>
         <th> Tacotron2 </th>
         <th> Tacotron2+x-vector </th>
+		<th> DMN</th>
+        <th> FDMN </th>
     </tr>
     <tr>
         <th> text1 </th>
@@ -349,77 +349,6 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2_x-vec/100/5.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/DMN/100/5.mp3" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/FDMN/100/5.mp3" type="audio/mpeg"></audio> </th>
-    </tr>	
-</table>
-
-<p>&nbsp;</p> 
-
-# The number of target speaker is 30
-<table>
-    <tr>
-        <th> ID </th>
-		<th> Ground Truth</th>
-        <th> DMN</th>
-        <th> FDMN </th>
-        <th> Tacotron2 </th>
-        <th> Tacotron2+x-vector </th>
-    </tr>
-    <tr>
-        <th> text1 </th>
-		<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Ground Truth/500/0.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2/500/0.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2_x-vec/500/0.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/DMN/500/0.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/FDMN/500/0.mp3" type="audio/mpeg"></audio> </th>
-    </tr>
-	
-	<tr>
-        <th> text2 </th>
-		<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Ground Truth/500/1.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2/500/1.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2_x-vec/500/1.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/DMN/500/1.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/FDMN/500/1.mp3" type="audio/mpeg"></audio> </th>
-    </tr>
-	
-	
-	<tr>
-        <th> text3 </th>
-		<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Ground Truth/500/2.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2/500/2.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2_x-vec/500/2.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/DMN/500/2.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/FDMN/500/2.mp3" type="audio/mpeg"></audio> </th>
-    </tr>
-	
-	
-	<tr>
-        <th> text4 </th>
-		<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Ground Truth/500/3.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2/500/3.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2_x-vec/500/3.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/DMN/500/3.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/FDMN/500/3.mp3" type="audio/mpeg"></audio> </th>
-    </tr>
-	
-	
-	<tr>
-        <th> text5 </th>
-		<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Ground Truth/500/4.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2/500/4.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2_x-vec/500/4.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/DMN/500/4.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/FDMN/500/4.mp3" type="audio/mpeg"></audio> </th>
-    </tr>
-	
-	
-	<tr>
-        <th> text6 </th>
-		<th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Ground Truth/500/5.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2/500/5.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Tacotron2_x-vec/500/5.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/DMN/500/5.mp3" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/FDMN/500/5.mp3" type="audio/mpeg"></audio> </th>
     </tr>	
 </table>
 
