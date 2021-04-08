@@ -140,7 +140,7 @@ table {
 
 <p>&nbsp;</p> 
 
-# The number of target speaker is 30
+# The number of target speaker is 100
 <table>
     <tr>
         <th> ID </th>
@@ -211,7 +211,7 @@ table {
 
 <p>&nbsp;</p> 
 
-# The number of target speaker is 30
+# The number of target speaker is 300
 <table>
     <tr>
         <th> ID </th>
@@ -283,7 +283,7 @@ table {
 
 <p>&nbsp;</p> 
 
-# The number of target speaker is 30
+# The number of target speaker is 500
 <table>
     <tr>
         <th> ID </th>
