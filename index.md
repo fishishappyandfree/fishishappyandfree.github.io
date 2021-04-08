@@ -70,6 +70,7 @@ table {
 # The number of target speaker is 30
 
 <table>
+	<CAPTION>The number of target speaker speech is 30</CAPTION>
     <tr>
         <th> ID </th>
 		<th> Ground Truth</th>
